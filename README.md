@@ -1,5 +1,6 @@
 # Bug reproducer
-Used to reproduce a bug in OpenLiberty mpOpenAPI UI
+Used to reproduce a bug in OpenLiberty mpOpenAPI UI. 
+Reported here: https://github.com/OpenLiberty/open-liberty/issues/11137
 
 ## OL server
 * Prepare the server `mvn clean verify`
