@@ -16,11 +16,14 @@
 <server description="Sample Servlet server">
     <featureManager>
         <feature>jaxrs-2.1</feature>
+        <feature>mpMetrics-2.3</feature>
+
         <feature>mpOpenAPI-1.1</feature>
 <!--        <feature>openapi-3.1</feature>-->
-<!--        <feature>mpMetrics-2.3</feature>-->
     </featureManager>
-    
+
+    <mpMetrics authentication="false"/>
+
     <httpEndpoint httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint" />
     
     <webApplication id="test" location="test.war" name="test"/>
