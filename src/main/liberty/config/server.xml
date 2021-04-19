@@ -16,9 +16,9 @@
 <server description="Sample Servlet server">
     <featureManager>
         <feature>jaxrs-2.1</feature>
-        <feature>mpMetrics-2.3</feature>
+        <feature>mpMetrics-3.0</feature>
 
-        <feature>mpOpenAPI-1.1</feature>
+        <feature>mpOpenAPI-2.0</feature>
 <!--        <feature>openapi-3.1</feature>-->
     </featureManager>
 
